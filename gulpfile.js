@@ -20,7 +20,7 @@ var gulp = require('gulp'),
 gulp.task('sass', ['clean-css'], function () {
     return gulp.src('./src/sass/*.sass')
         .pipe(sass().on('error', sass.logError))
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        //.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(gulp.dest('./src/css'));
 });
 
