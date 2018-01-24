@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800')
+
+@import 'font-face'
+@include fontFace('MuseoSansCyrl', '../fonts/MuseoSansCyrl-300')
+
+body
+	background: #FFF
+	font-size: 20px
+	font-family: "Arial"
+	line-height: 1.4
+
+.in
+	max-width: 940px
+	margin: 0 auto
+	padding-left: 10px
+	padding-right: 10px 
+
+.block1
+	-webkit-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	background-position: center
+	&__in
+	
+.block2
+	&__in
+
+.block3
+	&__in
+
+.block4
+	&__in
+
+.block5
+	&__in
+
+.reviews
+	&__in
+
+.footer
+	&__in
+
+
+
+.reviews
+	&__in
+		padding: 30px 10px
+	&__caption
+		margin-bottom: 30px
+		font-size: 24px
+		font-weight: 900
+	&__item
+		display: flex
+		margin-bottom: 50px
+		&:last-child
+			margin-bottom: 0
+	&__text	
+		margin-left: 30px
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		-webkit-justify-content: space-between
+		justify-content: space-between
+		font-weight: bold
+
+.form_block input
+	outline: none
+	font-size: 16px
+	margin: 0 auto 10px
+	display: block
+	width: 305px
+	height: 40px
+	font: 16px 'Arial', sans-serif
+	box-sizing: border-box
+	padding-left: 15px
+	text-align: left
+	background-color: #fff
+	border: 1px solid #b4b4b4
+
+textarea
+	font: 16px 'Arial', sans-serif
+	box-sizing: border-box
+	padding-left: 15px
+	text-align: left
+	background-color: #fff
+	border: 1px solid #b4b4b4
+
+.form_block
+	textarea
+		outline: none
+		font-size: 16px
+		line-height: 22px
+		margin: 0 auto 10px
+		display: block
+		width: 305px
+		height: 60px
+		resize: none
+		box-sizing: border-box
+		padding-top: 6px
+	button
+		cursor: pointer
+		outline: none
+		display: block
+		font-size: 33px
+		text-transform: uppercase
+		font-family: 'Arial', serif
+		font-weight: bold
+		text-decoration: none
+		width: 305px
+		height: 60px
+		margin: 0 auto
+		line-height: 60px
+		text-align: center
+		border-radius: 2px
+		border: none
+		transition: all .3s
+		color: #d5d5d5
+		background-color: black
+		border: 2px solid transparent
+		box-shadow: inset 0 0 15px #505439
+		&:hover
+			background-color: transparent
+			border: 2px solid #000 
+			color: #000
+	h1
+		color: #834b36
+		font: 40px 'Berlin Sans FB', 'Arial', sans-serif
+		text-shadow: -0 -1px 1px #FFFFFF, 0 -1px 1px #FFFFFF, -01px 1px #FFFFFF, 01px 1px #FFFFFF, -1px -0 1px #FFFFFF, 1px -0 1px #FFFFFF, -1px0 1px #FFFFFF, 1px0 1px #FFFFFF, -1px -1px 1px #FFFFFF, 1px -1px 1px #FFFFFF, -1px1px 1px #FFFFFF, 1px1px 1px #FFFFFF, -1px -1px 1px #FFFFFF, 1px -1px 1px #FFFFFF, -1px1px 1px #FFFFFF, 1px1px 1px #FFFFFF
+		margin: 15px 0 15px
+
+footer h1
+	color: #834b36
+	font: 40px 'Berlin Sans FB', 'Arial', sans-serif
+	text-shadow: -0 -1px 1px #FFFFFF, 0 -1px 1px #FFFFFF, -01px 1px #FFFFFF, 01px 1px #FFFFFF, -1px -0 1px #FFFFFF, 1px -0 1px #FFFFFF, -1px0 1px #FFFFFF, 1px0 1px #FFFFFF, -1px -1px 1px #FFFFFF, 1px -1px 1px #FFFFFF, -1px1px 1px #FFFFFF, 1px1px 1px #FFFFFF, -1px -1px 1px #FFFFFF, 1px -1px 1px #FFFFFF, -1px1px 1px #FFFFFF, 1px1px 1px #FFFFFF
+	margin: 15px 0 15px
+
+.sp
+	display: block
+	text-align: center
+
+.form_block .size
+	color: #fff
+	text-align: left
+	padding-left: 0
+	font: 16px/20px 'Arial', sans-serif
+
+.old-price
+	color: #fff
+	font: 20px/28px 'Arial', sans-serif
+	padding-top: 5px
+	text-decoration: line-through
+
+.form_block .new-price
+	color: red
+	font: 25px/35px 'Arial Black', sans-serif
+
+.sp
+	color: #fff
+	font: 18px/25px 'Arial', sans-serif
+	
+.white
+	color: #FFF
+.black 
+	color: #000
+	
+.harry_up
+	font: bold 29px/36px 'Arial', sans-serif
+
+.limit
+	font: bold 24px/34px 'Arial', sans-serif
+
+.form_block .free_del
+	color: red
+	font: bold 25px/30px 'Arial', sans-serif
+
+.time_left
+	color: #fff
+	font: bold 24px/34px 'Arial', sans-serif
+
+.timer .countDays, .countDiv0
+	display: none!important
+
+.form_block
+	width: 350px
+	z-index: 99
+	position: relative
+	padding: 15px 0
+
+.discount
+	display: block
+	position: absolute
+	width: 100px
+	height: 100px
+	color: #fff
+	text-align: center
+	background: url(../img/fullsize_distr.png) no-repeat
+	background-size: contain
+	font: bold 26px/40px 'Arial', sans-serif
+
+#discount2, #discount1
+	top: 80px
+	right: -30px
+
+.galaxy img
+	max-width: 50%
+
+@media (max-width: 1300px)
+	.galaxy
+		height: auto
+		margin-bottom: 0
+		background: none
+
+@media (max-width: 767px)
+	.form_block
+		padding-top: 15px
+		h1
+			text-align: center
+			margin-top: 0
+			footer h1
+			text-align: center
+			margin-top: 0
+#discount2, #discount1
+	top: 60px
+	right: -20px
+	
+
+.form_block
+	background: rgba(0, 0, 0, 0.7)
+	
+
+	
+.constructor img
+	&:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3)
+		margin: 15px 0
+.desacr img
+	&:nth-of-type(1), &:nth-of-type(2)
+	margin: 0 0 25px
+
+@media (max-width: 420px)
+	#discount2, #discount1
+		top: 60px
+		right: -0px
+	.galaxy img, .intro img, .desacr img
+		max-width: 100%
+		width: 100%
+
+@media (min-width: 768px) and (max-width: 991px)
+	.form_block
+		margin: 0 0 0 auto
+		border-radius: 15px
+
+@media (min-width: 992px)
+	.form_block
+		border-radius: 15px
+
+@media (max-width: 359px)
+	.form_block
+		width: 320px
+
+.form-header, .form-group label, .help-block
+	display: none
+
+.adfh-discount
+	color: red
+	font-weight: bold
